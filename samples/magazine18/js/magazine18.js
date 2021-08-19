@@ -1,8 +1,8 @@
 
 (function ($) {
 
-    var sampleName = 'magazine17',
-        samplePath = 'samples/magazine17/';
+    var sampleName = 'magazine18',
+        samplePath = 'samples/magazine18/';
 
     function addPage(page, book) {
 
@@ -20,12 +20,12 @@
 
         var img = $('<img />');
         img.load(function () {
-            var container = $('.magazine17 .p' + page);
+            var container = $('.magazine18 .p' + page);
             img.css({
                 width: '100%',
                 height: '100%'
             });
-            img.appendTo($('.magazine17 .p' + page));
+            img.appendTo($('.magazine18 .p' + page));
             container.find('.loader').remove();
         });
 
@@ -127,7 +127,7 @@
                     $('#slider').slider('value', getViewNumber(book, page));
 
                     if (page != 1 && page != book.turn('pages'))
-                        $('.magazine17 .tabs').fadeIn(500);
+                        $('.magazine18 .tabs').fadeIn(500);
 
 
                     book.turn('center');
@@ -182,7 +182,7 @@
 
                     } else {
 
-                        $('.magazine17').removeClass('animated').addClass('zoom-in');
+                        $('.magazine18').removeClass('animated').addClass('zoom-in');
                         $('.splash').addClass('no-transition').height($(window).height());
                         $('body > :not(.splash)').hide();
 
@@ -192,13 +192,13 @@
 
                 swipeLeft: function () {
 
-                    $('.magazine17').turn('next');
+                    $('.magazine18').turn('next');
 
                 },
 
                 swipeRight: function () {
 
-                    $('.magazine17').turn('previous');
+                    $('.magazine18').turn('previous');
 
                 }
             }
@@ -243,8 +243,8 @@
                 if (!sample.flipbook) {
 
                     var bookClass = (Modernizr.csstransforms) ?
-                        'mag1-transform magazine17' :
-                        'magazine17';
+                        'mag1-transform magazine18' :
+                        'magazine18';
 
                     sample.flipbook = $('<div />', {
                         'class': bookClass
