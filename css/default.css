@@ -363,6 +363,12 @@ body,ul,table,form {
     width: 230px;
     height: 300px;
 }
+.bookshelf .thumb19,
+.bookshelf-row .thumb19 {
+    background-image: url(../pics/book19.jpg);
+    width: 230px;
+    height: 300px;
+}
 
 
 
