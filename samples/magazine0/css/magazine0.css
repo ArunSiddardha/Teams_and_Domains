@@ -94,6 +94,10 @@
     -ms-border-radius: 0 15px 15px 0;
     -o-border-radius: 0 15px 15px 0;
     border-radius: 0 15px 15px 0;
+    background-color: white;
+    background-image: url(../../../pics/previous.png);
+    background-size: 10px;
+    background-repeat: no-repeat;
 }
 
 .magazine0 .previous-button {
@@ -103,28 +107,10 @@
     -ms-border-radius: 15px 0 0 15px;
     -o-border-radius: 15px 0 0 15px;
     border-radius: 15px 0 0 15px;
-}
-
-.magazine0 .previous-button-hover,
-.magazine0 .next-button-hover {
-    background-color: rgba(0, 0, 0, 0.2);
-}
-
-.magazine0 .previous-button-hover,
-.magazine0 .previous-button-down {
-    background-image: url(../pics/arrows.png);
-    background-position: -4px 284px;
+    background-color: white;
+    background-image: url(../../../pics/previous.png);
+    background-size: 10px;
     background-repeat: no-repeat;
 }
 
-.magazine0 .previous-button-down,
-.magazine0 .next-button-down {
-    background-color: rgba(0, 0, 0, 0.4);
-}
 
-.magazine0 .next-button-hover,
-.magazine0 .next-button-down {
-    background-image: url(../pics/arrows.png);
-    background-position: -38px 284px;
-    background-repeat: no-repeat;
-}
