@@ -1,5 +1,5 @@
 
-# Elan Beta Website 
+# Teams and Domains
 
 This is my contribution to the Elan's Beta website.
 
